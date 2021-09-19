@@ -1,0 +1,12 @@
+.closeBtn {
+    background-color: #282c34;
+    color: white;
+    border: 1px solid #282c34;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.closeBtn:hover {
+    cursor: pointer;
+}

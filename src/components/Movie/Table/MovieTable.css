@@ -1,0 +1,6 @@
+.movieTable {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}

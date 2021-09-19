@@ -1,0 +1,21 @@
+.searchContainer {
+    display: flex;
+    max-width: 50%;
+    height: 30px;
+    margin: auto;
+}
+
+.searchInput {
+    flex: 80%;
+}
+
+.searchBtn {
+    flex: 20%;
+    background-color: #282c34;
+    color: white;
+    border: 1px solid #282c34;
+}
+
+.searchBtn:hover {
+    cursor: pointer;
+}

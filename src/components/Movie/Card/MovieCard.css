@@ -1,0 +1,47 @@
+.card {
+    flex: 20%;
+    max-width: 20%;
+}
+
+.thumbnailContainer {
+    height: 80%;
+}
+
+.thumbnail {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    align-items: center;
+}
+
+a {
+    color: #282c34;
+    text-decoration: none;
+}
+
+/* Responsive layout - makes a two column-layout instead of five columns */
+@media (max-width: 1440px) {
+    .card {
+      flex: 25%;
+      max-width: 25%;
+    }
+}
+
+/* Responsive layout - makes a two column-layout instead of five columns */
+@media (max-width: 800px) {
+    .card {
+      flex: 50%;
+      max-width: 50%;
+    }
+}
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .card {
+      flex: 100%;
+      max-width: 100%;
+    }
+}
