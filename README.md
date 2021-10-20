@@ -1,3 +1,6 @@
+# React with OMDb API
+This project is uses OMDb API to get a list of movies and for my learning purpose
+
 # How to run
 
 1. Clone project
